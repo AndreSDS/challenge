@@ -4,7 +4,7 @@ import COLORS from "../../assets/colors";
 export const SideContentContainer = styled.section``;
 
 export const SideContentTitle = styled.h1`
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
