@@ -22,20 +22,6 @@ export const HeaderLogo = styled.img`
   object-fit: cover;
 `;
 
-export const SearchBarContainer = styled.div`
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-`;
-
-export const SearchBar = styled.div`
-  height: 20px;
-  width: 100%;
-  background-color: #fff;
-`;
-
 export const AvatarContainer = styled.div`
   flex: 1;
   display: flex;

@@ -1,14 +1,10 @@
 import React from "react";
+
+import SearchBar from "../SearchBar";
+
 import logo from "../../assets/image/Logo.png";
-import {
-  HeaderContainer,
-  HeaderLogoContainer,
-  HeaderLogo,
-  SearchBarContainer,
-  SearchBar,
-  AvatarContainer,
-  Avatar,
-} from "./style";
+import { HeaderContainer, HeaderLogoContainer, HeaderLogo } from "./style";
+import Avatar from "../Avatar";
 
 function Header() {
   return (
@@ -16,12 +12,10 @@ function Header() {
       <HeaderLogoContainer>
         <HeaderLogo src={logo} alt="Logo" />
       </HeaderLogoContainer>
-      <SearchBarContainer>
-        <SearchBar />
-      </SearchBarContainer>
-      <AvatarContainer>
-        <Avatar />
-      </AvatarContainer>
+
+      <SearchBar />
+      
+      <Avatar />
     </HeaderContainer>
   );
 }
