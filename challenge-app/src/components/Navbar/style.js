@@ -8,7 +8,7 @@ export const NavItemButton = styled.a`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
