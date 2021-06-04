@@ -1,10 +1,12 @@
 import React from "react";
+import CodeEditor from '../CodeEditor';
+
 import {
 } from "./style";
 
 function MainContent() {
   return (
-    <h1>Main Content</h1>
+    <CodeEditor />
   );
 }
 
